@@ -8,7 +8,12 @@ moondream = AutoModelForCausalLM.from_pretrained(
 )
 tokenizer = AutoTokenizer.from_pretrained(model_id, revision=revision)
 
-image = Image.open("b.jpg")
+################################
+path = 'b.jpg' # Replace this with the corresponding image path.
+################################
+
+
+image = Image.open(path)
 enc_image = moondream.encode_image(image)
 caption = moondream.answer_question(enc_image, " Given: sequence of images of a video. Summarize the action displayed.  ",tokenizer=tokenizer)
 print(caption)
