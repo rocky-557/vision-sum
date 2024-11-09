@@ -1,3 +1,8 @@
-pip install git+https://github.com/vikhyat/moondream.git#subdirectory=moondream/clients/python
-wget "https://huggingface.co/vikhyatk/moondream2/resolve/client/moondream-latest-int8.bin.gz?download=true" -O moondream-latest-f16.bin.gz
-gunzip moondream-latest-*.bin.gz
+pip install torch torchvision transformers einops mistralrs pillow 
+git clone https://github.com/rocky-557/vision-sum.git
+cd vision-sum
+python -m venv env
+chmod +x env/bin/activate
+source env/bin/activate
+clear
+echo "Everything has been Setup Completely. Now run md.py using 'python3 md.py'."
