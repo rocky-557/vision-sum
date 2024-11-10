@@ -1,4 +1,4 @@
-python -m venv env
+python3 -m venv env
 chmod +x env/bin/activate
 source env/bin/activate
 pip3 install torch torchvision transformers einops pillow 
