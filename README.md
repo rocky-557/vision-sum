@@ -7,6 +7,7 @@
 ```bash
 source env/bin/activate
 ```
+## Now start the Flask Server using the below command
 ```bash
 python3 app.py
 ```
