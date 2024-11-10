@@ -8,6 +8,6 @@
 source env/bin/activate
 ```
 ```bash
-python3 md.py
+python3 app.py
 ```
 
