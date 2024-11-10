@@ -1,4 +1,4 @@
-# Vision-sum
+# Vision*X*- A Video summarizer model. 
 ## For Setting Up 
  ```bash
    git clone https://github.com/rocky-557/vision-sum.git && cd vision-sum && chmod +x setup.sh && ./setup.sh
