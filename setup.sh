@@ -1,3 +1,5 @@
+apt upgrade && apt upgrade
+apt install python3-venv 
 python3 -m venv env
 chmod +x env/bin/activate
 source env/bin/activate
